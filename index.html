@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title>Bmi Project by HamidrezaJafari</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('./image/w11\ \(1\).jpg')">
+    <div class="container">
+        <div class="row">
+            <input type="range" min="20" max="200" value="20" id="weight">
+            <span id="weight-val">20 kg</span>
+        </div>
+        <div class="row">
+            <input type="range" min="100" max="250" value="100" id="height">
+            <span id="height-val">100 cm</span>
+        </div>
+
+        <p change="resultTag()" id="result">00.0</p>
+        <p id="category">Please Select Your Rang </p>
+        <p dir="rtl" class="descraption">
+            <br> زیر ۱۸.۵ باشد، شخص دچار کاهش وزن است.
+
+<br> بین ۱۸.۵ و ۲۴.۹ باشد، شخص در بازه‌ی وزن سالم به سر می‌برد.
+
+<br>  بین ۲۵ و ۲۹.۹ باشد، شخص اضافه وزن دارد.
+
+<br> بین ۳۰ و ۳۹.۹ باشد، شخص از چاقی مفرط رنج می‌برد.
+
+        </p>
+    </div>
+
+    <!--Script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
